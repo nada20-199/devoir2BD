@@ -1,5 +1,5 @@
- LE BINÖME: ABDESLAMI ZAYNA  
-			HMAIDDOUCH NADA
+ LE BINï¿½ME: ABDESLAMI ZAYNA  
+	HMAIDDOUCH NADA
  GROUPE :   G1
 
  //C7
@@ -52,7 +52,7 @@
   create view v_pilote as select * from pilote where VILLE = 'Paris';
    
  //D2
-  alter view v_pilote set SAL = 1.1 * SAL; // Il est impossible de modifier les salaires des pilotes habitant Paris à travers la vue v-pilote. 
+  alter view v_pilote set SAL = 1.1 * SAL; // Il est impossible de modifier les salaires des pilotes habitant Paris ï¿½ travers la vue v-pilote. 
   
  //D3
  Create view dervol as Select AVION,max(DATE_VOL)  "Time_Maximum" from Affectation group by avion;
